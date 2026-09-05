@@ -1,0 +1,30 @@
+[project]
+name = "slardar_pool"
+description = "abstract connection pool for asyncio"
+
+authors = [
+    { name = "Elephant Liu" }
+]
+
+license = "MIT"
+
+classifiers = [
+  "Programming Language :: Python :: 3",
+]
+
+requires-python = ">=3.13"
+
+dependencies = []
+
+readme = "README.md"
+
+dynamic = ["version"]
+
+[project.urls]
+Homepage = "https://github.com/xospc/slardar-pool"
+
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
